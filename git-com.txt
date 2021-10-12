@@ -1,0 +1,59 @@
+Version control:
+                 version control is the management of changes done to a program.
+                  
+               1) when a program is changed version control tells about when it was changed and what was changed.
+
+
+git:
+    git is a version control tool.
+
+
+Repository:
+            it is a storage space in your computer where you can store your code(Local repository) OR it can be a storage space in a online host EX:GITHUB(CENTRAL REPOSITORTY)
+       
+
+GITHUB:
+     it is a online platform where you can make your centarl repository. 
+
+
+GIT COMMANDS:
+   1)git init:is used to create a repository.
+   2)git add :
+          is used to add files to the index(we should add files to index inorder to commit changes)
+       syntax:
+             git add filename
+             (or)
+             git add -A (to add multiple files at a time)
+  3)git status: Show the working tree status
+  4)git commit:
+              it used record what changes you have made to a repository
+            syntax:
+                    git commit -m "<message>"
+  5)git log:Shows commit logs
+  6)git diff:Show changes between commits, commit and working tree, etc
+  7)git branch:creates a branch
+                syntax:
+                         git branch branch_name
+  8)git checkout:it is used to switch to a brach
+                 syntax:
+                        git checkout branch_name
+  9) pull :Fetch from and integrate with another repository or a local branch
+            syntax:
+                   git remote add orgin "link of central repository"(then origin is added)
+                   git pull orgin main
+  10)merge:join branches.
+           syntax:
+                  git merge branch_to_merge
+  11)push:it is used to push files to a repository.
+            syntax:
+                   git remote add orgin "link of central repository"(then origin is added)
+                   git push orgin main(push master branch files to central repository(orgin))
+       
+
+
+
+
+
+
+
+                  
