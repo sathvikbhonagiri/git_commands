@@ -39,15 +39,15 @@ GIT COMMANDS:
                         git checkout branch_name
   9) pull :Fetch from and integrate with another repository or a local branch
             syntax:
-                   git remote add orgin "link of central repository"(then origin is added)
-                   git pull orgin main
+                   git remote add origin "link of central repository"(then origin is added)
+                   git pull origin main
   10)merge:join branches.
            syntax:
                   git merge branch_to_merge
   11)push:it is used to push files to a repository.
             syntax:
-                   git remote add orgin "link of central repository"(then origin is added)
-                   git push orgin main(push master branch files to central repository(orgin))
+                   git remote add origin "link of central repository"(then origin is added)
+                   git push origin main(push master branch files to central repository(orgin))
        
 
 
